@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\microsoft_windows">
+      <UniqueIdentifier>{3f8bc9ac-3c6f-43f6-93c5-4ec99470e80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\microsoft_windows">
+      <UniqueIdentifier>{81294768-443f-413f-ae8a-409d5371ef72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandAnywhere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LaunchHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\Canvas.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\MicrosoftInnerWindow.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\MsInnerWindowFactory.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\MicrosoftWindow.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\ParamUtil.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\MicrosoftWindowsUtil.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\MouseState.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\IEvtListener.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="microsoft_windows\IDrawer.h">
+      <Filter>Header Files\microsoft_windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsEnvironmentVariableUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsPathUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommandAnywhere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LaunchHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microsoft_windows\Canvas.cpp">
+      <Filter>Source Files\microsoft_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="microsoft_windows\MicrosoftInnerWindow.cpp">
+      <Filter>Source Files\microsoft_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="microsoft_windows\MicrosoftWindow.cpp">
+      <Filter>Source Files\microsoft_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="microsoft_windows\ParamUtil.cpp">
+      <Filter>Source Files\microsoft_windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommandAnywhere.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="CommandAnywhere.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
