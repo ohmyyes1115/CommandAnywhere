@@ -1,5 +1,5 @@
 #pragma once
-#include "microsoft_windows/Canvas.h"
+#include "Canvas.h"
 #include "Common.h"
 #include "MicrosoftWindowsUtil.h"
 #include <Windows.h>
